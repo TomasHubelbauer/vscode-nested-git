@@ -18,6 +18,9 @@ cd ..
 code .
 ```
 
+![](explorer-a.png)
+![](git-a.png)
+
 However, it doesn't support the repository directories being nested.
 
 ```powershell
@@ -32,6 +35,10 @@ echo inner > readme.md
 cd ..
 code .
 ```
+
+
+![](explorer-b.png)
+![](git-b.png)
 
 I'd like to make a case for both being useful and make a plea for the VS Code team to add support for this.
 Or perhaps there is already an API that could support this and allow me to develop an extension for this.
