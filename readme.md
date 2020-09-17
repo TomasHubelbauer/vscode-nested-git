@@ -43,6 +43,13 @@ code .
 I'd like to make a case for both being useful and make a plea for the VS Code team to add support for this.
 Or perhaps there is already an API that could support this and allow me to develop an extension for this.
 
+## Workspaces
+
+VS Code supports workspace files, by creating a workspace, where the root repository directory is the first
+workspace directory and the nested repository directories follow in the flat list of workspace directories,
+I figured there was a chance these would then also register in the SCM pane in VS Code, since they would be
+faux-top-level. Alas, that is not the case.
+
 ## To-Do
 
 ### Study the VS Code extension API to see if this could be enabled without the VS Code team
